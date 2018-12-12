@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/shared.css">
+    <link rel="stylesheet" type="text/css" href="/css/search_bar.css">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div id="headers">
+        <h1 id="title">headlines</h1>
+    </div>
+    <div id="search_div">
+        <datalist id="site_suggestion">
+        </datalist>
+        <input type="url" autocomplete="on" placeholder="url" id="search_field" list="site_suggestion" autofocus />
+        <button id="search_button" class="button">search</button>
+    </div>
+    <div id="favorites_container">
+    </div>
+    <script type="text/javascript" src="/js/favorites.js"></script>
+    <script type="text/javascript" src="/js/search_bar.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+</body>
+
+</html>

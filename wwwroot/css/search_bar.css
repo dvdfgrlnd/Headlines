@@ -1,0 +1,19 @@
+#search_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#search_button{
+    border-color: #ffc200;
+}
+
+input[type=url]{
+    align-self: center;
+    padding: 0.4em 0.5em;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 2px solid #ffc200 !important;
+    border-radius: 0.1em;
+}
